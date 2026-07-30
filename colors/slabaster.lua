@@ -21,12 +21,12 @@ local p = {
   builtin     = "#75C7BD",
   -- Naysayer's function/keyword faces are both plain white; we split them
   -- so declarations/definitions read as a distinct hue from keywords.
-  definition  = "#5A8CC7",
+  definition  = "#7AACDB",
 
   red         = "#C85D60",
   green       = "#87A85B",
   yellow      = "#CDAA66",
-  blue        = "#5A8CC7",
+  blue        = "#7AACDB",
   cyan        = "#519FAD",
   gray        = "#5A6362",
 }

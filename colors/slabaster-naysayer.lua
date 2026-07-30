@@ -22,12 +22,12 @@ local p = {
   keyword     = "#F0E6D2",
   type        = "#82CE8A",
   builtin     = "#75C7BD",
-  definition  = "#5A8CC7",
+  definition  = "#7AACDB",
 
   red         = "#C85D60",
   green       = "#87A85B",
   yellow      = "#CDAA66",
-  blue        = "#5A8CC7",
+  blue        = "#7AACDB",
   cyan        = "#519FAD",
   gray        = "#5A6362",
 }
