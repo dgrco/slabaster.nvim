@@ -1,17 +1,17 @@
 [colors.primary]
-background = "#0E1415"
+background = "#062329"
 foreground = "#DBCBA6"
 
 [colors.cursor]
-text = "#0E1415"
-cursor = "#DBCBA6"
+text = "#062329"
+cursor = "#90EE90"
 
 [colors.selection]
 text = "#DBCBA6"
-background = "#1C3D3A"
+background = "#144C4E"
 
 [colors.normal]
-black   = "#0E1415"
+black   = "#062329"
 red     = "#C85D60"
 green   = "#82CE8A"
 yellow  = "#75C7BD"
