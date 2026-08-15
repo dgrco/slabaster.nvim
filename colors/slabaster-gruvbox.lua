@@ -18,6 +18,7 @@ local p = {
   type        = "#ebdbb2",
   builtin     = "#fabd2f",
   definition  = "#83a598",
+  heading     = "#fabd2f",
 
   red         = "#fb4934",
   green       = "#b8bb26",

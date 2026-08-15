@@ -91,7 +91,7 @@ function M.load(name, p)
     Folded        = { fg = p.fg_dim, bg = p.bg_alt },
     FoldColumn    = { fg = p.fg_faint, bg = p.bg },
     Directory     = { fg = p.builtin },
-    Title         = { fg = p.keyword, bold = true },
+    Title         = { fg = p.heading or p.keyword, bold = true },
     ErrorMsg      = { fg = diag.error },
     WarningMsg    = { fg = diag.warn },
     ModeMsg       = { fg = p.fg },
