@@ -13,7 +13,7 @@ local p = {
 
   comment     = "#dfdf8e",
   string      = "#95cb82",
-  number      = "#cc8bc9",
+  number      = "#cecece",
   keyword     = "#75C7BD",
   type        = "#cecece",
   builtin     = "#71aed7",
