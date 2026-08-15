@@ -484,6 +484,12 @@ function M.load(name, p)
     AlphaShortcut = { fg = p.number },
     AlphaFooter  = { fg = p.fg_dim },
   })
+
+  -- render-markdown.nvim
+
+  set({
+    RenderMarkdownCodeInline = { fg = p.string, bg = "NONE" },
+  })
 end
 
 return M

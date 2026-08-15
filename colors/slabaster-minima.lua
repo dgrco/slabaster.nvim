@@ -9,7 +9,7 @@ local p = {
   fg          = "#cecece",
   fg_dim      = "#7d7d7d",
   fg_faint    = "#696969",
-  cursor      = "#cd974b",
+  cursor      = "#cecece",
 
   comment     = "#dfdf8e",
   string      = "#95cb82",
