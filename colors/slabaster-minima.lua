@@ -1,41 +1,46 @@
--- A more austere sibling of slabaster: same warm alabaster body text and
--- background family, but the syntax palette is pared down to a handful of
--- muted accents. Keywords carry no hue of their own — they're bold, in a
--- brighter alabaster white, so structure reads through weight rather than
--- color.
+-- A faithful port of tonsky's Alabaster (dark), via p00f/alabaster.nvim's
+-- color values: https://github.com/tonsky/sublime-scheme-alabaster
+--
+-- Alabaster's own rule is that keywords, types, and preprocessor directives
+-- carry no color at all -- they're plain foreground text, because they're
+-- "the least important and most obvious part of any program." Only strings,
+-- constants/numbers, comments, and function/type *definitions* get a hue.
+-- minima keeps that rule, with one deliberate addition: keywords are bold,
+-- still in plain foreground -- weight instead of color, not a new color.
 
 local p = {
-  bg          = "#0E1415",
-  bg_alt      = "#141B1C",
-  bg_float    = "#192223",
-  bg_cursor   = "#161D1E",
-  bg_select   = "#26332F",
-  bg_visual   = "#26332F",
-  border      = "#3A413D",
-  fg          = "#DBCBA6",
-  fg_dim      = "#8A8272",
-  fg_faint    = "#5A6362",
-  cursor      = "#DBCBA6",
+  bg          = "#0e1415",
+  bg_alt      = "#162022",
+  bg_float    = "#182325",
+  bg_cursor   = "#182325",
+  bg_select   = "#354c50",
+  bg_visual   = "#293334",
+  border      = "#2b3d40",
+  fg          = "#cecece",
+  fg_dim      = "#7d7d7d",
+  fg_faint    = "#696969",
+  cursor      = "#cd974b",
 
-  comment     = "#6E7568",
-  string      = "#A3B08C",
-  number      = "#C9AD82",
-  keyword     = "#F5F0E2",
+  comment     = "#dfdf8e",
+  string      = "#95cb82",
+  number      = "#cc8bc9",
+  -- Alabaster leaves keywords uncolored (same as fg); minima's only
+  -- deviation from the original is making them bold.
+  keyword       = "#cecece",
   bold_keywords = true,
-  -- Type and builtin share one muted accent; the palette stays minimal
-  -- rather than giving every syntax category its own hue.
-  type        = "#9FB4BC",
-  builtin     = "#9FB4BC",
-  -- Function/type definitions get brightness, not a new hue, so they read
-  -- as slightly more prominent body text rather than another color family.
-  definition  = "#EAE0C7",
+  -- Alabaster leaves Type/StorageClass uncolored too -- same fg, no bold.
+  type        = "#cecece",
+  builtin     = "#71aed7",
+  -- Function/type definitions are the one place Alabaster spends a second
+  -- accent color, distinct from the string/constant/comment hues.
+  definition  = "#71ade7",
 
-  red         = "#BE7373",
-  green       = "#A3B08C",
-  yellow      = "#C9AD82",
-  blue        = "#9FB4BC",
-  cyan        = "#8FA6AE",
-  gray        = "#5A6362",
+  red         = "#c33c33",
+  green       = "#95cb82",
+  yellow      = "#cd974b",
+  blue        = "#71aed7",
+  cyan        = "#47bea9",
+  gray        = "#7d7d7d",
 }
 
 require("slabaster.theme").load("slabaster-minima", p)
