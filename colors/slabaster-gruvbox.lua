@@ -19,6 +19,7 @@ local p = {
   builtin     = "#fabd2f",
   definition  = "#83a598",
   heading     = "#fabd2f",
+  macro       = "#ebdbb2",
 
   red         = "#fb4934",
   green       = "#b8bb26",

@@ -18,6 +18,7 @@ local p = {
   type        = "#cecece",
   builtin     = "#71aed7",
   definition  = "#71ade7",
+  macro       = "#cecece",
 
   red         = "#c33c33",
   green       = "#95cb82",
