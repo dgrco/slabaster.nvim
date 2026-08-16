@@ -22,7 +22,7 @@ function M.load(name, p)
 
   -- Git / diff reuse the core palette.
   local git = {
-    add    = p.type,
+    add    = p.green,
     change = p.number,
     delete = p.red,
   }
