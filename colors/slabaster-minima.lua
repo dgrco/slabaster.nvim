@@ -19,6 +19,7 @@ local p = {
   builtin     = "#71aed7",
   definition  = "#71ade7",
   macro       = "#cecece",
+  operator    = "#7d7d7d",
 
   red         = "#c33c33",
   green       = "#95cb82",
