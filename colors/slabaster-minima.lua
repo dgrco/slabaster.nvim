@@ -19,7 +19,6 @@ local p = {
   builtin     = "#71aed7",
   definition  = "#71ade7",
   macro       = "#cecece",
-  operator    = "#7d7d7d",
 
   red         = "#c33c33",
   green       = "#95cb82",
@@ -28,5 +27,7 @@ local p = {
   cyan        = "#47bea9",
   gray        = "#7d7d7d",
 }
+
+p.operator = p.fg_dim
 
 require("slabaster.theme").load("slabaster-minima", p)
