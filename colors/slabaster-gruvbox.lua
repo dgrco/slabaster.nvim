@@ -26,7 +26,7 @@ local p = {
   green       = "#b8bb26",
   yellow      = "#fabd2f",
   blue        = "#83a598",
-  cyan        = "#8ec07c",
+  cyan        = "#83a598",
   gray        = "#928374",
 }
 
