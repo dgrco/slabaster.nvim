@@ -11,7 +11,7 @@ local p = {
   fg_faint    = "#7c6f64",
   cursor      = "#ebdbb2",
 
-  comment     = "#b3b464",
+  comment     = "#529146",
   string      = "#b8bb26",
   number      = "#d3869b",
   keyword     = "#fb4934",
