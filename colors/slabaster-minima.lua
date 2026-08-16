@@ -28,6 +28,6 @@ local p = {
   gray        = "#7d7d7d",
 }
 
-p.operator = p.fg_dim
+p.operator = "#708b8d"
 
 require("slabaster.theme").load("slabaster-minima", p)
