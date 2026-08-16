@@ -196,7 +196,7 @@ function M.load(name, p)
     ["@include"]               = { link = "Include" },
     ["@preproc"]               = { link = "PreProc" },
     ["@tag"]                   = { link = "Tag" },
-    ["@tag.attribute"]         = { fg = p.type },
+    ["@tag.attribute"]         = { fg = p.fg },
     ["@tag.delimiter"]         = { fg = p.fg_dim },
     ["@text"]                  = { fg = p.fg },
     ["@text.strong"]           = { fg = p.fg, bold = true },
