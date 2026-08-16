@@ -189,7 +189,7 @@ function M.load(name, p)
     ["@field"]                 = { fg = p.fg },
     ["@parameter"]             = { fg = p.fg },
     ["@punctuation.delimiter"] = { fg = p.fg_dim },
-    ["@punctuation.bracket"]   = { fg = p.fg_dim },
+    ["@punctuation.bracket"]   = { fg = p.bracket or p.fg_dim },
     ["@punctuation.special"]   = { fg = p.builtin },
     ["@operator"]              = { fg = p.operator or p.fg },
     ["@namespace"]             = { fg = p.type },

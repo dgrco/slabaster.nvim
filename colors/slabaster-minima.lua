@@ -29,5 +29,6 @@ local p = {
 }
 
 p.operator = "#708b8d"
+p.bracket = "#bababa"
 
 require("slabaster.theme").load("slabaster-minima", p)
