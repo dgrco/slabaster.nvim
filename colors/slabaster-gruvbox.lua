@@ -1,7 +1,7 @@
 local p = {
   bg          = "#1d2021",
   bg_alt      = "#3c3836",
-  bg_float    = "#504945",
+  bg_float    = "#3c3836",
   bg_cursor   = "#3c3836",
   bg_select   = "#665c54",
   bg_visual   = "#665c54",
