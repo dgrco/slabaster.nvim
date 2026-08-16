@@ -84,7 +84,7 @@ function M.load(name, p)
     Search        = { fg = p.bg, bg = p.number },
     IncSearch     = { fg = p.bg, bg = p.builtin },
     CurSearch     = { fg = p.bg, bg = p.builtin },
-    MatchParen    = { fg = p.keyword, bold = true },
+    MatchParen    = { fg = p.matchparen or p.keyword, bold = true },
     NonText       = { fg = p.fg_faint },
     Whitespace    = { fg = p.fg_faint },
     EndOfBuffer   = { fg = p.fg_faint },
