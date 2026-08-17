@@ -20,7 +20,6 @@ local p = {
   definition  = "#b8bb26",
   heading     = "#fabd2f",
   macro       = "#ebdbb2",
-  matchparen  = "#fabd2f",
   import      = "#8ec07c",
 
   red         = "#fb4934",
