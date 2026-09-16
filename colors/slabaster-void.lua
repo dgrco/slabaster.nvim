@@ -14,7 +14,7 @@ local p = {
   comment     = "#52525e",
   string      = "#93c4ab",
   number      = "#b8a3d9",
-  keyword     = "#d99a9a",
+  keyword     = "#d9757a",
   type        = "#d4b483",
   builtin     = "#7ec8d4",
   definition  = "#8fb3d9",
@@ -25,7 +25,7 @@ local p = {
   bracket     = "#75757f",
   matchparen  = "#33333a",
 
-  red         = "#d99a9a",
+  red         = "#d9757a",
   green       = "#93c4ab",
 }
 
