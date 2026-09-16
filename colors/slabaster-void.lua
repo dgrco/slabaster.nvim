@@ -22,7 +22,7 @@ local p = {
   import      = "#aec996",
   heading     = "#d4b483",
   operator    = "#75757f",
-  bracket     = "#75757f",
+  bracket     = "#e4e4ec",
   matchparen  = "#33333a",
 
   red         = "#d9757a",
