@@ -1,8 +1,8 @@
 local p = {
-  bg          = "#1d2021",
-  bg_alt      = "#262828",
-  bg_float    = "#262828",
-  bg_cursor   = "#232626",
+  bg          = "#221f1d",
+  bg_alt      = "#2a2623",
+  bg_float    = "#2a2623",
+  bg_cursor   = "#282421",
   bg_select   = "#3c3836",
   bg_visual   = "#3c3836",
   border      = "#504945",
