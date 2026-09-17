@@ -9,7 +9,7 @@ local p = {
   fg          = "#e4e4ec",
   fg_dim      = "#9a9aa6",
   fg_faint    = "#33333a",
-  cursor      = "#9a9aa6",
+  cursor      = "#b2b2be",
 
   comment     = "#7a7a89",
   string      = "#93c4ab",
@@ -21,8 +21,9 @@ local p = {
   macro       = "#b8a3d9",
   import      = "#aec996",
   heading     = "#d4b483",
-  operator    = "#75757f",
+  operator    = "#e4e4ec",
   bracket     = "#e4e4ec",
+  delimiter   = "#e4e4ec",
   matchparen  = "#33333a",
 
   red         = "#d9757a",
