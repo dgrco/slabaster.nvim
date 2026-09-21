@@ -15,7 +15,7 @@ function M.load(name, p)
   -- Diagnostics reuse the core palette rather than adding new hues.
   local diag = {
     error = p.red,
-    warn  = p.number,
+    warn  = p.warn or p.number,
     info  = p.builtin,
     hint  = p.string,
   }
@@ -23,7 +23,7 @@ function M.load(name, p)
   -- Git / diff reuse the core palette.
   local git = {
     add    = p.green,
-    change = p.number,
+    change = p.warn or p.number,
     delete = p.red,
   }
 
@@ -113,8 +113,8 @@ function M.load(name, p)
     Character      = { fg = p.string },
     Number         = { fg = p.number },
     Float          = { fg = p.number },
-    Boolean        = { fg = p.number },
-    Constant       = { fg = p.number },
+    Boolean        = { fg = p.boolean or p.number },
+    Constant       = { fg = p.boolean or p.number },
     Identifier     = { fg = p.fg },
     Function       = { fg = p.definition },
     Statement      = { fg = p.keyword },
@@ -157,7 +157,7 @@ function M.load(name, p)
     ["@number.float"]         = { link = "Float" },
     ["@boolean"]               = { link = "Boolean" },
     ["@constant"]              = { link = "Constant" },
-    ["@constant.builtin"]      = { fg = p.macro or p.builtin },
+    ["@constant.builtin"]      = { fg = p.boolean or p.macro or p.builtin },
     ["@constant.macro"]        = { fg = p.macro or p.builtin },
     ["@variable"]              = { fg = p.fg },
     ["@variable.builtin"]      = { fg = p.builtin },
@@ -251,6 +251,12 @@ function M.load(name, p)
     ["@lsp.typemod.function.definition"]  = { link = "Function" },
     ["@lsp.typemod.method.declaration"]   = { link = "Function" },
     ["@lsp.typemod.method.definition"]    = { link = "Function" },
+    -- Treesitter cannot tell a declarator from a use; semantic tokens can.
+    ["@lsp.type.variable"]                 = { fg = p.fg },
+    ["@lsp.type.parameter"]                = { fg = p.fg },
+    ["@lsp.typemod.variable.declaration"]  = { fg = p.declaration or p.fg },
+    ["@lsp.typemod.variable.definition"]   = { fg = p.declaration or p.fg },
+    ["@lsp.typemod.parameter.declaration"] = { fg = p.declaration or p.fg },
   })
 
   -- Diff
