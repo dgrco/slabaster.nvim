@@ -251,12 +251,6 @@ function M.load(name, p)
     ["@lsp.typemod.function.definition"]  = { link = "Function" },
     ["@lsp.typemod.method.declaration"]   = { link = "Function" },
     ["@lsp.typemod.method.definition"]    = { link = "Function" },
-    -- Treesitter cannot tell a declarator from a use; semantic tokens can.
-    ["@lsp.type.variable"]                 = { fg = p.fg },
-    ["@lsp.type.parameter"]                = { fg = p.fg },
-    ["@lsp.typemod.variable.declaration"]  = { fg = p.declaration or p.fg },
-    ["@lsp.typemod.variable.definition"]   = { fg = p.declaration or p.fg },
-    ["@lsp.typemod.parameter.declaration"] = { fg = p.declaration or p.fg },
   })
 
   -- Diff

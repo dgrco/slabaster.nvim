@@ -15,7 +15,6 @@ local p = {
   string      = "#2ec09c",
   number      = "#d1b897",
   boolean     = "#7ad0c6",
-  declaration = "#c1d1e3",
   warn        = "#e6db74",
   keyword     = "#ffffff",
   type        = "#8cde94",
