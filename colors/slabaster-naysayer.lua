@@ -14,7 +14,7 @@ local p = {
   -- Blow's config writes the comment face as "#3fdflf", which is not hex.
   comment     = "#3fdf1f",
   string      = "#0fdfaf",
-  number      = "#ccc7aa",
+  number      = "#7fffd4",
   boolean     = "#7fffd4",
   warn        = "#e6db74",
   keyword     = "#d4e5e9",
