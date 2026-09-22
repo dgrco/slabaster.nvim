@@ -227,6 +227,7 @@ function M.load(name, p)
     DiagnosticUnderlineWarn    = { sp = diag.warn, undercurl = true },
     DiagnosticUnderlineInfo    = { sp = diag.info, undercurl = true },
     DiagnosticUnderlineHint    = { sp = diag.hint, undercurl = true },
+    DiagnosticUnnecessary      = { fg = p.fg },
     DiagnosticVirtualTextError = { fg = diag.error, bg = p.bg_alt },
     DiagnosticVirtualTextWarn  = { fg = diag.warn, bg = p.bg_alt },
     DiagnosticVirtualTextInfo  = { fg = diag.info, bg = p.bg_alt },
