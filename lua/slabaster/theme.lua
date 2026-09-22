@@ -71,7 +71,7 @@ function M.load(name, p)
     WinSeparator  = { fg = p.border },
     VertSplit     = { fg = p.border },
     StatusLine    = { fg = p.fg, bg = p.bg_alt },
-    StatusLineNC  = { fg = p.fg_faint, bg = p.bg_alt },
+    StatusLineNC  = { fg = p.fg_inactive or p.fg_faint, bg = p.bg_alt },
     TabLine       = { fg = p.fg_dim, bg = p.bg_alt },
     TabLineSel    = { fg = p.keyword, bg = p.bg_select, bold = true },
     TabLineFill   = { bg = p.bg_alt },

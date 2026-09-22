@@ -9,6 +9,7 @@ local p = {
   fg          = "#ccc7aa",
   fg_dim      = "#938f7a",
   fg_faint    = "#1e4c4e",
+  fg_inactive = "#938f7a",
   cursor      = "#90ee90",
 
   -- Blow's config writes the comment face as "#3fdflf", which is not hex.
