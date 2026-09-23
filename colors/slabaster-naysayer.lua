@@ -6,10 +6,10 @@ local p = {
   bg_select   = "#1a5053",
   bg_visual   = "#1a5053",
   border      = "#126367",
-  fg          = "#c2b59a",
-  fg_dim      = "#918772",
+  fg          = "#bcb5a2",
+  fg_dim      = "#8d8878",
   fg_faint    = "#1e4c4e",
-  fg_inactive = "#918772",
+  fg_inactive = "#8d8878",
   cursor      = "#90ee90",
 
   -- Blow's config writes the comment face as "#3fdflf", which is not hex.
@@ -25,9 +25,9 @@ local p = {
   macro       = "#7fffd4",
   import      = "#90ee90",
   heading     = "#ffffff",
-  operator    = "#c2b59a",
-  bracket     = "#c2b59a",
-  delimiter   = "#c2b59a",
+  operator    = "#bcb5a2",
+  bracket     = "#bcb5a2",
+  delimiter   = "#bcb5a2",
   matchparen  = "#1a5053",
 
   red         = "#e05252",
