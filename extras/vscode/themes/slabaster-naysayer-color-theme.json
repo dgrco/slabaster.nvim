@@ -302,7 +302,11 @@
       "settings": { "foreground": "#90ee90" }
     },
     {
-      "scope": ["constant.numeric", "constant.language", "constant.other.enum", "variable.other.enummember", "variable.other.constant", "support.constant"],
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#7fffd4" }
+    },
+    {
+      "scope": ["constant.language", "constant.other.enum", "variable.other.enummember", "variable.other.constant", "support.constant"],
       "settings": { "foreground": "#7fffd4" }
     },
     {
@@ -310,7 +314,15 @@
       "settings": { "foreground": "#ebebeb" }
     },
     {
-      "scope": ["keyword.operator", "punctuation", "meta.brace", "punctuation.separator", "punctuation.terminator", "punctuation.accessor"],
+      "scope": ["keyword.operator"],
+      "settings": { "foreground": "#bcb5a2" }
+    },
+    {
+      "scope": ["meta.brace", "punctuation.section", "punctuation.definition.block", "punctuation.definition.parameters", "punctuation.definition.arguments", "punctuation.definition.array"],
+      "settings": { "foreground": "#bcb5a2" }
+    },
+    {
+      "scope": ["punctuation", "punctuation.separator", "punctuation.terminator", "punctuation.accessor"],
       "settings": { "foreground": "#bcb5a2" }
     },
     {
