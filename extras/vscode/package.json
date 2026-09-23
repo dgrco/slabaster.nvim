@@ -1,0 +1,20 @@
+{
+  "name": "slabaster",
+  "displayName": "Slabaster",
+  "description": "Slabaster color themes",
+  "version": "0.1.0",
+  "publisher": "dgrco",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Slabaster Naysayer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-naysayer-color-theme.json"
+      }
+    ]
+  }
+}
