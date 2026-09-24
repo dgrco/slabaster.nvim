@@ -246,12 +246,15 @@ function M.load(name, p)
     LspSignatureActiveParameter = { fg = p.builtin, bold = true },
     LspInlayHint                = { fg = p.fg_faint, bg = p.bg_alt },
     LspCodeLens                 = { fg = p.fg_dim },
-    ["@lsp.type.function"]                = { fg = p.fg },
-    ["@lsp.type.method"]                  = { fg = p.fg },
-    ["@lsp.typemod.function.declaration"] = { link = "Function" },
-    ["@lsp.typemod.function.definition"]  = { link = "Function" },
-    ["@lsp.typemod.method.declaration"]   = { link = "Function" },
-    ["@lsp.typemod.method.definition"]    = { link = "Function" },
+    ["@lsp.type.function"]                   = { fg = p.fg },
+    ["@lsp.type.method"]                     = { fg = p.fg },
+    ["@lsp.typemod.function.declaration"]    = { link = "Function" },
+    ["@lsp.typemod.function.definition"]     = { link = "Function" },
+    ["@lsp.typemod.method.declaration"]      = { link = "Function" },
+    ["@lsp.typemod.method.definition"]       = { link = "Function" },
+    ["@lsp.typemod.function.defaultLibrary"] = { fg = p.builtin },
+    ["@lsp.typemod.method.defaultLibrary"]   = { fg = p.builtin },
+    ["@lsp.typemod.variable.defaultLibrary"] = { fg = p.builtin },
   })
 
   -- Diff
