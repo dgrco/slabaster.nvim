@@ -248,8 +248,8 @@
   "semanticTokenColors": {
     "function": "#e4e4ec",
     "method": "#e4e4ec",
-    "function.declaration": "#9db3cb",
-    "method.declaration": "#9db3cb",
+    "function.declaration": "#84c2b8",
+    "method.declaration": "#84c2b8",
     "function.defaultLibrary": "#9cced6",
     "variable": "#e4e4ec",
     "parameter": "#e4e4ec",
@@ -424,7 +424,7 @@
         "meta.definition.method entity.name.function"
       ],
       "settings": {
-        "foreground": "#9db3cb"
+        "foreground": "#84c2b8"
       }
     },
     {
