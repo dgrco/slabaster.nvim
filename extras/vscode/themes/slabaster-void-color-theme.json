@@ -22,8 +22,8 @@
     "textSeparator.foreground": "#3e3e4a",
     "editor.background": "#0c0c0e",
     "editor.foreground": "#e4e4ec",
-    "editorCursor.foreground": "#b2b2be",
-    "editorCursor.background": "#0c0c0e",
+    "editorCursor.foreground": "#5f5f64",
+    "editorCursor.background": "#e4e4ec",
     "editor.lineHighlightBackground": "#141417",
     "editor.lineHighlightBorder": "#00000000",
     "editor.selectionBackground": "#2e2e38",
@@ -227,7 +227,7 @@
     "terminal.background": "#0c0c0e",
     "terminal.foreground": "#e4e4ec",
     "terminal.selectionBackground": "#2e2e38",
-    "terminalCursor.foreground": "#b2b2be",
+    "terminalCursor.foreground": "#5f5f64",
     "terminal.ansiBlack": "#0c0c0e",
     "terminal.ansiRed": "#d9757a",
     "terminal.ansiGreen": "#93c4ab",
@@ -243,7 +243,8 @@
     "terminal.ansiBrightBlue": "#a4c3e4",
     "terminal.ansiBrightMagenta": "#c8b6e4",
     "terminal.ansiBrightCyan": "#93d6e0",
-    "terminal.ansiBrightWhite": "#e4e4ec"
+    "terminal.ansiBrightWhite": "#e4e4ec",
+    "terminalCursor.background": "#e4e4ec"
   },
   "semanticTokenColors": {
     "function": "#e4e4ec",
