@@ -255,8 +255,8 @@
     "variable": "#dcdcdd",
     "parameter": "#dcdcdd",
     "property": "#dcdcdd",
-    "variable.readonly.defaultLibrary": "#bb9881",
-    "enumMember": "#bb9881",
+    "variable.readonly.defaultLibrary": "#87adb2",
+    "enumMember": "#87adb2",
     "type": "#91b9a3",
     "class": "#91b9a3",
     "struct": "#91b9a3",
@@ -264,7 +264,7 @@
     "interface": "#91b9a3",
     "typeParameter": "#91b9a3",
     "namespace": "#91b9a3",
-    "macro": "#bb9881",
+    "macro": "#87adb2",
     "keyword": "#b4b489",
     "comment": "#8e7eb4",
     "string": "#ac7376",
@@ -337,7 +337,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#bb9881"
+        "foreground": "#87adb2"
       }
     },
     {
@@ -462,7 +462,7 @@
         "support.function.macro"
       ],
       "settings": {
-        "foreground": "#bb9881"
+        "foreground": "#87adb2"
       }
     },
     {
