@@ -500,6 +500,10 @@ function M.load(name, p)
   set({
     RenderMarkdownCodeInline = { fg = p.string, bg = "NONE" },
   })
+
+  if p.groups then
+    set(p.groups)
+  end
 end
 
 return M
