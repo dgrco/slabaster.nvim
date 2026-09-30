@@ -1,14 +1,14 @@
 [colors.primary]
 background = "#0e1018"
-foreground = "#ebdbb2"
+foreground = "#ddd5c0"
 
 [colors.cursor]
 text = "#0e1018"
-cursor = "#ebdbb2"
+cursor = "#ddd5c0"
 
 [colors.selection]
-text = "#ebdbb2"
-background = "#3c3836"
+text = "#ddd5c0"
+background = "#2d313d"
 
 [colors.normal]
 black   = "#282828"
