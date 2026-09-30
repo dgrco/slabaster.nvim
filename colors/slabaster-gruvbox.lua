@@ -13,24 +13,24 @@ local p = {
   cursor_nr      = "#e9b949",
 
   comment        = "#81878f",
-  string         = "#a4cc6c",
+  string         = "#95be60",
   number         = "#d3869b",
   keyword        = "#ea6962",
   type           = "#e9b949",
   builtin        = "#ec8a4a",
   definition     = "#83a598",
   macro          = "#d3869b",
-  heading        = "#a4cc6c",
+  heading        = "#95be60",
   operator       = "#a39c8c",
   bracket        = "#ec8a4a",
   matchparen     = "#3d4250",
   warn           = "#dfaf87",
 
   red            = "#ea6962",
-  green          = "#a4cc6c",
+  green          = "#95be60",
 
   terminal = {
-    "#2d313d", "#ea6962", "#a4cc6c", "#e9b949",
+    "#2d313d", "#ea6962", "#95be60", "#e9b949",
     "#83a598", "#d3869b", "#8bba7f", "#c9c1ad",
     "#81878f", "#f28379", "#b9da8e", "#f2cc6f",
     "#9dbcb1", "#e0a2b3", "#a3cc97", "#ddd5c0",
