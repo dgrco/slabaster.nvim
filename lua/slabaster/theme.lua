@@ -52,6 +52,12 @@ function M.load(name, p)
   vim.g.terminal_color_14 = p.string
   vim.g.terminal_color_15 = p.keyword
 
+  if p.terminal then
+    for i, color in ipairs(p.terminal) do
+      vim.g["terminal_color_" .. (i - 1)] = color
+    end
+  end
+
   -- Editor UI
 
   set({

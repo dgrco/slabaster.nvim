@@ -28,6 +28,13 @@ local p = {
 
   red            = "#ea6962",
   green          = "#a4cc6c",
+
+  terminal = {
+    "#2d313d", "#ea6962", "#a4cc6c", "#e9b949",
+    "#83a598", "#d3869b", "#8bba7f", "#c9c1ad",
+    "#81878f", "#f28379", "#b9da8e", "#f2cc6f",
+    "#9dbcb1", "#e0a2b3", "#a3cc97", "#ddd5c0",
+  },
 }
 
 require("slabaster.theme").load("slabaster-gruvbox", p)
