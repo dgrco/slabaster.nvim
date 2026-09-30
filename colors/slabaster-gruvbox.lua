@@ -18,6 +18,7 @@ local p = {
   keyword        = "#ea6962",
   type           = "#e9b949",
   builtin        = "#ec8a4a",
+  default_library = "#ddd5c0",
   definition     = "#83a598",
   macro          = "#d3869b",
   heading        = "#95be60",
