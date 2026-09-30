@@ -23,6 +23,7 @@ local p = {
   heading        = "#95be60",
   operator       = "#a39c8c",
   bracket        = "#ec8a4a",
+  delimiter      = "#ec8a4a",
   matchparen     = "#3d4250",
   warn           = "#dfaf87",
 

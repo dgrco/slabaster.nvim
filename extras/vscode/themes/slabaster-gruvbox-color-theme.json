@@ -323,7 +323,7 @@
     },
     {
       "scope": ["punctuation", "punctuation.separator", "punctuation.terminator", "punctuation.accessor"],
-      "settings": { "foreground": "#a39c8c" }
+      "settings": { "foreground": "#ec8a4a" }
     },
     {
       "scope": ["keyword.operator.new", "keyword.operator.expression", "keyword.operator.logical.python", "keyword.operator.sizeof", "keyword.operator.cast"],
