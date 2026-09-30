@@ -13,21 +13,21 @@ local p = {
   cursor_nr      = "#e9b949",
 
   comment        = "#81878f",
-  string         = "#a7c080",
+  string         = "#a4cc6c",
   number         = "#d3869b",
   keyword        = "#ea6962",
   type           = "#e9b949",
   builtin        = "#ec8a4a",
   definition     = "#83a598",
   macro          = "#d3869b",
-  heading        = "#a7c080",
+  heading        = "#a4cc6c",
   operator       = "#a39c8c",
   bracket        = "#ec8a4a",
   matchparen     = "#3d4250",
   warn           = "#dfaf87",
 
   red            = "#ea6962",
-  green          = "#a7c080",
+  green          = "#a4cc6c",
 }
 
 require("slabaster.theme").load("slabaster-gruvbox", p)
