@@ -11,7 +11,7 @@ local c = {
   fg4        = "#a39c8c",
   gray       = "#81878f",
 
-  red        = "#ea6962",
+  red        = "#f05a4c",
   green      = "#b8bb26",
   yellow     = "#e9b949",
   blue       = "#83a598",
@@ -59,9 +59,9 @@ local p = {
   green          = c.green,
 
   terminal = {
-    "#2d313d", "#ea6962", "#b8bb26", "#e9b949",
+    "#2d313d", "#f05a4c", "#b8bb26", "#e9b949",
     "#7da7c5", "#d3869b", "#7ab8ad", "#c9c1ad",
-    "#81878f", "#f28379", "#cacd5d", "#f2cc6f",
+    "#81878f", "#f5796c", "#cacd5d", "#f2cc6f",
     "#97bdd8", "#e0a2b3", "#9fd1c8", "#ddd5c0",
   },
 
