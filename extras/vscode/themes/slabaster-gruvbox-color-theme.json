@@ -315,7 +315,7 @@
     },
     {
       "scope": ["keyword.operator"],
-      "settings": { "foreground": "#a39c8c" }
+      "settings": { "foreground": "#ec8a4a" }
     },
     {
       "scope": ["meta.brace", "punctuation.section", "punctuation.definition.block", "punctuation.definition.parameters", "punctuation.definition.arguments", "punctuation.definition.array"],
