@@ -21,6 +21,7 @@ local p = {
   default_library = "#ddd5c0",
   definition     = "#83a598",
   macro          = "#d3869b",
+  import         = "#8bba7f",
   heading        = "#95be60",
   operator       = "#ec8a4a",
   bracket        = "#ec8a4a",

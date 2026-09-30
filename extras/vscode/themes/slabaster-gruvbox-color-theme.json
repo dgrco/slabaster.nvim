@@ -351,7 +351,7 @@
     },
     {
       "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from", "keyword.control.directive.include", "keyword.other.import", "keyword.other.using"],
-      "settings": { "foreground": "#e9b949" }
+      "settings": { "foreground": "#8bba7f" }
     },
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
