@@ -45,7 +45,6 @@ local p = {
   keyword        = c.red,
   type           = c.yellow,
   builtin        = c.orange,
-  default_library = c.fg1,
   definition     = c.blue,
   macro          = c.purple,
   import         = c.aqua,

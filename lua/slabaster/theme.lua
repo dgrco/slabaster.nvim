@@ -258,9 +258,9 @@ function M.load(name, p)
     ["@lsp.typemod.function.definition"]     = { link = "Function" },
     ["@lsp.typemod.method.declaration"]      = { link = "Function" },
     ["@lsp.typemod.method.definition"]       = { link = "Function" },
-    ["@lsp.typemod.function.defaultLibrary"] = { fg = p.default_library or p.builtin },
-    ["@lsp.typemod.method.defaultLibrary"]   = { fg = p.default_library or p.builtin },
-    ["@lsp.typemod.variable.defaultLibrary"] = { fg = p.default_library or p.builtin },
+    ["@lsp.typemod.function.defaultLibrary"] = { fg = p.builtin },
+    ["@lsp.typemod.method.defaultLibrary"]   = { fg = p.builtin },
+    ["@lsp.typemod.variable.defaultLibrary"] = { fg = p.builtin },
   })
 
   -- Diff
