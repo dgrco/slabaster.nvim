@@ -359,11 +359,7 @@
     },
     {
       "scope": ["markup.heading", "entity.name.section"],
-      "settings": { "foreground": "#b8bb26", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["markup.bold"],
-      "settings": { "fontStyle": "bold" }
+      "settings": { "foreground": "#b8bb26" }
     },
     {
       "scope": ["markup.italic"],
