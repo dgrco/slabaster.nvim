@@ -261,11 +261,11 @@
     "terminal.ansiBrightWhite": "#ddd5c0"
   },
   "semanticTokenColors": {
-    "function": "#ddd5c0",
-    "method": "#ddd5c0",
-    "function.declaration": "#83a598",
-    "method.declaration": "#83a598",
-    "function.defaultLibrary": "#b8bb26",
+    "function": "#8bba7f",
+    "method": "#8bba7f",
+    "function.declaration": "#8bba7f",
+    "method.declaration": "#8bba7f",
+    "function.defaultLibrary": "#8bba7f",
     "variable": "#ddd5c0",
     "parameter": "#ddd5c0",
     "property": "#ddd5c0",
@@ -335,11 +335,11 @@
     },
     {
       "scope": ["entity.name.function", "meta.definition.function entity.name.function", "meta.definition.method entity.name.function"],
-      "settings": { "foreground": "#83a598" }
+      "settings": { "foreground": "#8bba7f" }
     },
     {
       "scope": ["meta.function-call entity.name.function", "meta.function-call.generic", "meta.method-call entity.name.function", "variable.function"],
-      "settings": { "foreground": "#ddd5c0" }
+      "settings": { "foreground": "#8bba7f" }
     },
     {
       "scope": ["support.function", "support.function.builtin", "entity.other.attribute-name", "meta.attribute", "storage.type.annotation", "punctuation.definition.annotation"],
