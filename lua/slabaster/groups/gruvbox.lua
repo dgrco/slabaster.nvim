@@ -61,7 +61,7 @@ return function(c)
     ["@namespace"] = { fg = c.fg1 },
     ["@parameter"] = { link = "Identifier" },
     ["@property"] = { link = "Identifier" },
-    ["@punctuation.special"] = { link = "Delimiter" },
+    ["@punctuation.special"] = { fg = c.fg4 },
     ["@storageclass"] = { link = "StorageClass" },
     ["@string.escape"] = { link = "SpecialChar" },
     ["@string.regex"] = { link = "String" },

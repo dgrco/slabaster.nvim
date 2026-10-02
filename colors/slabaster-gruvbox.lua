@@ -49,9 +49,9 @@ local p = {
   macro          = c.purple,
   import         = c.aqua,
   heading        = c.green,
-  operator       = c.orange,
-  bracket        = c.orange,
-  delimiter      = c.orange,
+  operator       = c.fg4,
+  bracket        = c.fg4,
+  delimiter      = c.fg4,
   matchparen     = c.bg3,
   warn           = "#dfaf87",
 
