@@ -39,19 +39,19 @@ local p = {
   cursor         = c.fg1,
   cursor_nr      = c.yellow,
 
-  comment        = c.aqua,
+  comment        = c.gray,
   string         = c.green,
   number         = c.purple,
-  keyword        = "#f4efe6",
+  keyword        = c.red,
   type           = c.yellow,
-  builtin        = c.yellow,
-  definition     = "#f2e2b8",
+  builtin        = c.orange,
+  definition     = c.aqua,
   macro          = c.purple,
-  import         = c.yellow,
-  heading        = "#f4efe6",
-  operator       = c.fg1,
-  bracket        = c.fg1,
-  delimiter      = c.fg1,
+  import         = c.aqua,
+  heading        = c.green,
+  operator       = c.fg4,
+  bracket        = c.fg4,
+  delimiter      = c.fg4,
   matchparen     = c.bg3,
   warn           = "#dfaf87",
 
@@ -64,6 +64,8 @@ local p = {
     "#81878f", "#f5796c", "#cacd5d", "#f2cc6f",
     "#97bdd8", "#e0a2b3", "#9fd1c8", "#ddd5c0",
   },
+
+  groups = require("slabaster.groups.gruvbox")(c),
 }
 
 require("slabaster.theme").load("slabaster-gruvbox", p)
