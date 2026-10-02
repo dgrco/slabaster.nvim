@@ -299,7 +299,7 @@
     },
     {
       "scope": ["constant.character.escape", "constant.other.placeholder", "string.regexp"],
-      "settings": { "foreground": "#ec8a4a" }
+      "settings": { "foreground": "#d3869b" }
     },
     {
       "scope": ["constant.numeric"],
@@ -343,7 +343,7 @@
     },
     {
       "scope": ["support.function", "support.function.builtin", "entity.other.attribute-name", "meta.attribute", "storage.type.annotation", "punctuation.definition.annotation"],
-      "settings": { "foreground": "#ec8a4a" }
+      "settings": { "foreground": "#8bba7f" }
     },
     {
       "scope": ["meta.preprocessor", "keyword.control.directive", "punctuation.definition.directive", "entity.name.function.preprocessor", "entity.name.function.macro", "support.function.macro"],
@@ -355,7 +355,7 @@
     },
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
-      "settings": { "foreground": "#ec8a4a" }
+      "settings": { "foreground": "#f05a4c" }
     },
     {
       "scope": ["markup.heading", "entity.name.section"],
