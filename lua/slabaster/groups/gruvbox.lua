@@ -322,7 +322,6 @@ return function(c)
     Folded = { fg = c.gray, bg = c.bg1 },
     FzfLuaTitle = { fg = c.red },
     GitSignsChange = { fg = c.orange },
-    Identifier = { fg = c.blue },
     Ignore = { link = "Normal" },
     IlluminatedWordRead = { link = "LspReferenceRead" },
     IlluminatedWordText = { link = "LspReferenceText" },
