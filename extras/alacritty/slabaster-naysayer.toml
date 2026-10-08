@@ -1,24 +1,24 @@
 [colors.primary]
-background = "#072727"
-foreground = "#bcb5a2"
+background = "#092a25"
+foreground = "#cdad8c"
 
 [colors.cursor]
-text = "#072727"
+text = "#092a25"
 cursor = "#90ee90"
 
 [colors.selection]
-text = "#bcb5a2"
+text = "#cdad8c"
 background = "#1a5053"
 
 [colors.normal]
-black   = "#072727"
+black   = "#092a25"
 red     = "#e05252"
 green   = "#3fdf1f"
 yellow  = "#e6db74"
 blue    = "#66d9ef"
 magenta = "#ae81ff"
 cyan    = "#0fdfaf"
-white   = "#bcb5a2"
+white   = "#cdad8c"
 
 [colors.bright]
 black   = "#126367"
