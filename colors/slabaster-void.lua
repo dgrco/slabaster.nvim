@@ -1,0 +1,35 @@
+local p = {
+  bg          = "#0c0c0e",
+  bg_alt      = "#141417",
+  bg_float    = "#1c1c25",
+  bg_cursor   = "#141417",
+  bg_select   = "#2e2e38",
+  bg_visual   = "#2e2e38",
+  border      = "#3e3e4a",
+  fg          = "#dcdcdd",
+  fg_dim      = "#9a9aa6",
+  fg_faint    = "#33333a",
+  cursor      = "#7c7c82",
+  cursor_text = "#dcdcdd",
+
+  comment     = "#8e7eb4",
+  string      = "#ac7376",
+  number      = "#bb9881",
+  keyword     = "#b4b489",
+  type        = "#91b9a3",
+  builtin     = "#87adb2",
+  definition  = "#6da199",
+  boolean     = "#87adb2",
+  macro       = "#87adb2",
+  import      = "#92a682",
+  heading     = "#b4b489",
+  operator    = "#dcdcdd",
+  bracket     = "#dcdcdd",
+  delimiter   = "#dcdcdd",
+  matchparen  = "#b4b489",
+
+  red         = "#eb474d",
+  green       = "#93c4ab",
+}
+
+require("slabaster.theme").load("slabaster-void", p)

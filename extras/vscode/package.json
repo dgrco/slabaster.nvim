@@ -1,0 +1,35 @@
+{
+  "name": "slabaster",
+  "displayName": "Slabaster",
+  "description": "Slabaster color themes",
+  "version": "0.2.0",
+  "publisher": "dgrco",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Slabaster Naysayer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-naysayer-color-theme.json"
+      },
+      {
+        "label": "Slabaster Gruvbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-gruvbox-color-theme.json"
+      },
+      {
+        "label": "Slabaster Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-flat-color-theme.json"
+      },
+      {
+        "label": "Slabaster Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-void-color-theme.json"
+      }
+    ]
+  }
+}

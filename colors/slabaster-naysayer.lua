@@ -1,0 +1,37 @@
+local p = {
+  bg          = "#072727",
+  bg_alt      = "#093434",
+  bg_float    = "#062121",
+  bg_cursor   = "#093434",
+  bg_select   = "#1a5053",
+  bg_visual   = "#1a5053",
+  border      = "#126367",
+  fg          = "#bcb5a2",
+  fg_dim      = "#8d8878",
+  fg_faint    = "#1e4c4e",
+  fg_inactive = "#8d8878",
+  cursor      = "#90ee90",
+
+  comment     = "#66c564",
+  string      = "#43bda0",
+  number      = "#90e9cd",
+  boolean     = "#90e9cd",
+  warn        = "#e6db74",
+  keyword     = "#ebebeb",
+  type        = "#a6e5af",
+  builtin     = "#90ee90",
+  definition  = "#c8d4ec",
+  macro       = "#90e9cd",
+  import      = "#90ee90",
+  default_library = "#bcb5a2",
+  heading     = "#ffffff",
+  operator    = "#bcb5a2",
+  bracket     = "#bcb5a2",
+  delimiter   = "#bcb5a2",
+  matchparen  = "#e6db74",
+
+  red         = "#e05252",
+  green       = "#3fdf1f",
+}
+
+require("slabaster.theme").load("slabaster-naysayer", p)
