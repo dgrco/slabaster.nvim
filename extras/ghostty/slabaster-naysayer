@@ -1,11 +1,11 @@
-background = #092a25
+background = #062328
 foreground = #d0b595
-cursor-color = #90ee90
-cursor-text = #092a25
-selection-background = #1a5053
+cursor-color = #90e090
+cursor-text = #062328
+selection-background = #0000ff
 selection-foreground = #d0b595
 
-palette = 0=#092a25
+palette = 0=#062328
 palette = 1=#e05252
 palette = 2=#3fdf1f
 palette = 3=#e6db74
