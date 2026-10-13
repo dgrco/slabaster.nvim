@@ -12,7 +12,7 @@ local p = {
   cursor      = "#7c7c82",
   cursor_text = "#dcdcdd",
 
-  comment     = "#8a75bd",
+  comment     = "#7e7e8c",
   string      = "#b6696d",
   number      = "#c59677",
   keyword     = "#bcbc81",

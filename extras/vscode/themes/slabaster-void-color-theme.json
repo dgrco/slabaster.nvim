@@ -266,7 +266,7 @@
     "namespace": "#8ac0a2",
     "macro": "#7fb3ba",
     "keyword": "#bcbc81",
-    "comment": "#8a75bd",
+    "comment": "#7e7e8c",
     "string": "#b6696d",
     "number": "#c59677"
   },
@@ -294,7 +294,7 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#8a75bd"
+        "foreground": "#7e7e8c"
       }
     },
     {
