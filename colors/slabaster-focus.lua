@@ -41,8 +41,18 @@ local p = {
   },
 
   groups = {
-    Search           = { fg = "#ffffff", bg = "#8e772e" },
-    ["@markup.italic"] = { fg = "#bfc9db" },
+    Search                    = { fg = "#ffffff", bg = "#8e772e" },
+    ["@markup.italic"]        = { fg = "#bfc9db" },
+    ["@function.call"]        = { fg = "#d0c5a9" },
+    ["@function.method.call"] = { fg = "#d0c5a9" },
+    ["@method.call"]          = { fg = "#d0c5a9" },
+    ["@lsp.type.function"]    = { fg = "#d0c5a9" },
+    ["@lsp.type.method"]      = { fg = "#d0c5a9" },
+    ["@type"]                 = { fg = "#bfc9db" },
+    ["@type.definition"]      = { fg = "#bfc9db" },
+    ["@constructor"]          = { fg = "#bfc9db" },
+    ["@constant"]             = { fg = "#bfc9db" },
+    ["@constant.macro"]       = { fg = "#bfc9db" },
   },
 }
 
