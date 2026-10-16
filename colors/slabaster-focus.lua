@@ -1,0 +1,49 @@
+local p = {
+  bg          = "#15212a",
+  bg_alt      = "#10191f",
+  bg_float    = "#1a2831",
+  bg_cursor   = "#1a2831",
+  bg_select   = "#1c4449",
+  bg_visual   = "#1c4449",
+  border      = "#2b4250",
+  fg          = "#bfc9db",
+  fg_dim      = "#87919d",
+  fg_faint    = "#3b4a56",
+  cursor      = "#26b2b2",
+  cursor_text = "#ffffff",
+  cursor_nr   = "#26b2b2",
+
+  comment     = "#87919d",
+  string      = "#d4bc7d",
+  number      = "#d699b5",
+  keyword     = "#e67d74",
+  type        = "#82aaa3",
+  builtin     = "#e0ad82",
+  definition  = "#d0c5a9",
+  boolean     = "#d699b5",
+  macro       = "#e0ad82",
+  import      = "#e67d74",
+  heading     = "#e67d74",
+  operator    = "#e0ad82",
+  bracket     = "#bfc9db",
+  delimiter   = "#bfc9db",
+  matchparen  = "#26b2b2",
+  warn        = "#f8ad34",
+
+  red         = "#ff5a52",
+  green       = "#8cc08a",
+
+  terminal = {
+    "#15212a", "#e67d74", "#8cc08a", "#d4bc7d",
+    "#7fa6d0", "#d699b5", "#5fbfbf", "#bfc9db",
+    "#87919d", "#f0978f", "#a5d2a3", "#e4d97d",
+    "#99bce2", "#e4b4ca", "#82d2d2", "#e8eef8",
+  },
+
+  groups = {
+    Search           = { fg = "#ffffff", bg = "#8e772e" },
+    ["@markup.italic"] = { fg = "#bfc9db" },
+  },
+}
+
+require("slabaster.theme").load("slabaster-focus", p)
