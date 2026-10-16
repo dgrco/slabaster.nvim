@@ -63,7 +63,6 @@ local p = {
     ["@lsp.type.function"]    = { fg = "#d0c5a9" },
     ["@lsp.type.method"]      = { fg = "#d0c5a9" },
     ["@constant"]             = { fg = "#bfc9db" },
-    ["@constant.macro"]       = { fg = "#bfc9db" },
     ["@variable.builtin"]     = { fg = "#d699b5" },
     ["@string.escape"]        = { fg = "#d4bc7d" },
     ["@string.special"]       = { fg = "#d4bc7d" },
