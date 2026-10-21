@@ -63,4 +63,4 @@ local p = {
   },
 }
 
-require("slabaster.theme").load("slabaster-4coder", p)
+require("slabaster.theme").load("slabaster-fleury", p)
