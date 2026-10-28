@@ -175,7 +175,7 @@ function M.load(name, p)
     ["@function.call"]         = { fg = p.fg },
     ["@function.method.call"]  = { fg = p.fg },
     ["@function.macro"]        = { fg = p.macro or p.builtin },
-    ["@module"]                = { fg = p.fg },
+    ["@module"]                = { fg = p.module or p.fg },
     ["@method"]                = { link = "Function" },
     ["@method.call"]           = { fg = p.fg },
     ["@constructor"]           = { fg = p.type },

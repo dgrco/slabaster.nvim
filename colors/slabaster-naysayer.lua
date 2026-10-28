@@ -22,6 +22,7 @@ local p = {
   builtin     = "#90ee90",
   definition  = "#c8d4ec",
   macro       = "#7fffd4",
+  module      = "#7fffd4",
   import      = "#90ee90",
   default_library = "#d3b58d",
   heading     = "#ffffff",
