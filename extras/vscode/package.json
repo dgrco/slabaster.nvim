@@ -16,11 +16,6 @@
         "path": "./themes/slabaster-naysayer-color-theme.json"
       },
       {
-        "label": "Slabaster Gruvbox",
-        "uiTheme": "vs-dark",
-        "path": "./themes/slabaster-gruvbox-color-theme.json"
-      },
-      {
         "label": "Slabaster Void",
         "uiTheme": "vs-dark",
         "path": "./themes/slabaster-void-color-theme.json"
