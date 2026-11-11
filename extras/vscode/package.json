@@ -21,11 +21,6 @@
         "path": "./themes/slabaster-gruvbox-color-theme.json"
       },
       {
-        "label": "Slabaster Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/slabaster-flat-color-theme.json"
-      },
-      {
         "label": "Slabaster Void",
         "uiTheme": "vs-dark",
         "path": "./themes/slabaster-void-color-theme.json"
