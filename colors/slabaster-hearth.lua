@@ -6,7 +6,7 @@ local p = {
   bg_select   = "#2c2c38",
   bg_visual   = "#2c2c38",
   border      = "#4f4436",
-  fg          = "#caab82",
+  fg          = "#cda473",
   fg_dim      = "#7a7066",
   fg_faint    = "#3e3c3a",
   cursor      = "#5bd75b",
@@ -36,7 +36,7 @@ local p = {
 
   terminal = {
     "#0a0a0a", "#cf4a42", "#7fae55", "#d9aa3a",
-    "#7097ab", "#c06d8f", "#5fb3a0", "#caab82",
+    "#7097ab", "#c06d8f", "#5fb3a0", "#cda473",
     "#4a4744", "#e0675e", "#98c471", "#e3c88e",
     "#8aacbd", "#d48aa8", "#7fcfc4", "#d6c7b0",
   },
