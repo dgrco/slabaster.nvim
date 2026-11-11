@@ -42,8 +42,6 @@ local p = {
   },
 
   groups = {
-    LineNr                                = { fg = "#3e3c3a", bg = "#0f0f0f" },
-    SignColumn                            = { fg = "#3e3c3a", bg = "#0f0f0f" },
     Search                                = { fg = "#0a0a0a", bg = "#d9bf5c" },
     IncSearch                             = { fg = "#0a0a0a", bg = "#e09a3e" },
     CurSearch                             = { fg = "#0a0a0a", bg = "#e09a3e" },
