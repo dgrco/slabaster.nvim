@@ -2,7 +2,7 @@
   "name": "slabaster",
   "displayName": "Slabaster",
   "description": "Slabaster color themes",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "dgrco",
   "engines": {
     "vscode": "^1.70.0"
@@ -10,6 +10,16 @@
   "categories": ["Themes"],
   "contributes": {
     "themes": [
+      {
+        "label": "Slabaster Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-focus-color-theme.json"
+      },
+      {
+        "label": "Slabaster Hearth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slabaster-hearth-color-theme.json"
+      },
       {
         "label": "Slabaster Naysayer",
         "uiTheme": "vs-dark",
