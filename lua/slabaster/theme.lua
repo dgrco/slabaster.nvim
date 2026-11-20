@@ -69,7 +69,7 @@ function M.load(name, p)
     Cursor        = { fg = p.cursor_text or p.bg, bg = p.cursor },
     TermCursor    = { fg = p.cursor_text or p.bg, bg = p.cursor },
     CursorLine    = { bg = p.bg_cursor },
-    CursorLineNr  = { fg = p.cursor_nr or p.builtin, bg = p.bg_cursor, bold = true },
+    CursorLineNr  = { fg = p.cursor_nr or p.builtin, bg = p.bg, bold = true },
     CursorColumn  = { bg = p.bg_cursor },
     LineNr        = { fg = p.fg_faint },
     SignColumn    = { fg = p.fg_faint, bg = p.bg },
